@@ -1,0 +1,98 @@
+@font-face {
+  font-family: quran;
+  src: url(pdms-saleem-quranfont.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: black;
+}
+
+.app-container {
+  width: 576px;
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgba(0, 199, 179, 0.9);
+  position: fixed;
+  margin: auto;
+  display: block;
+  height: 60px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 576px;
+  top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 999;
+  border: 1px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ol li.surah-list {
+  padding: 5px;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+div.surah-list-container ol a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 2px;
+}
+
+ol li.surah-list:hover {
+  background-color: black;
+  color: white;
+}
+
+div.surah-list-container ol {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(0, 199, 179);
+}
+
+.ayat {
+  font-family: quran;
+  font-size: 30px;
+}
+
+.audio {
+  position: fixed;
+  bottom: 0px;
+  width: 576px;
+}
+
+.surah {
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.tafsir {
+  text-align: justify;
+}
